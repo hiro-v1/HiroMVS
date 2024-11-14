@@ -1,6 +1,6 @@
 import asyncio
 from pytgcalls import idle
-from driver.HiroMVS import call_py, bot
+from driver.hiro import call_py, bot
 
 async def start_bot():
     print("[INFO]: STARTING BOT CLIENT")
